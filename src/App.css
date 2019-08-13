@@ -1,3 +1,11 @@
 html {
     background-color: #A9E2F3;
 }
+
+.App {
+    background-color: #bb1433;
+    width: 20rem;
+    height: 30rem;
+    border: 1.5px solid grey;
+    border-radius: 10px;
+}
