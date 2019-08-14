@@ -20,13 +20,14 @@ function App() {
 
   return (
     <div className="container">
-      
+      <Logo />
+      <Display number={0}/>
       <div className="App">
-        <Logo />
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <Display number={0}/>
-        <Specials />
-        <Numbers />
+        <div className="leftSide">
+          <Specials />
+          <Numbers />
+        </div>
         <Operators />
       </div>
     </div>

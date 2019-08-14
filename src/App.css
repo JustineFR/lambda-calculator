@@ -2,7 +2,7 @@ html {
     background-color: #A9E2F3;
 }
 
-.App {
+.container {
     margin: 0 auto;
     padding: 1.6rem 1.6rem;
     background-color: #bb1433;
@@ -10,6 +10,11 @@ html {
     height: 26rem;
     border: 1.5px solid grey;
     border-radius: 10px;
+}
+
+.App {
+    display: flex;
+    
 }
 
 .button {
@@ -20,7 +25,8 @@ html {
     background-color: #2260B1;
     border-radius: 70px;
     border: solid black 1px;
-    margin: 5px 10px;
+    /* margin: 5px 10px; */
+    text-align: center;
     
 }
 
@@ -40,4 +46,15 @@ html {
     padding-right: 20px;
     text-align: end;
 
+}
+
+.right-side {
+    background-color: #3eb5e5;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+
+.num {
+    background-color: #123b78;
 }
