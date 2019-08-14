@@ -3,9 +3,41 @@ html {
 }
 
 .App {
+    margin: 0 auto;
+    padding: 1.6rem 1.6rem;
     background-color: #bb1433;
-    width: 20rem;
-    height: 30rem;
+    width: 17rem;
+    height: 26rem;
     border: 1.5px solid grey;
     border-radius: 10px;
+}
+
+.button {
+    color: white;
+    font-size: 20px;
+    height: 55px;
+    width: 55px;
+    background-color: #2260B1;
+    border-radius: 70px;
+    border: solid black 1px;
+    margin: 5px 10px;
+    
+}
+
+.logo {
+    width: 30%;
+}
+
+.display {
+    background-color: #312626;
+    margin: 12px auto;
+    width: 93%;
+    height: 60px;
+    border-radius: 44px;
+    height: 62px;
+    color: white;
+    font-size: 34px;
+    padding-right: 20px;
+    text-align: end;
+
 }
